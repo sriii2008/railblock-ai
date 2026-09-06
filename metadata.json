@@ -1,0 +1,6 @@
+{
+  "name": "RailBlock AI",
+  "description": "AI-Powered Block Planning Optimizer for Indian Railways",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
