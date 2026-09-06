@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-pastel-dream {
+    background: 
+      radial-gradient(ellipse at 15% 10%, rgba(224, 203, 255, 0.85) 0%, rgba(240, 225, 255, 0.4) 40%, transparent 65%),
+      radial-gradient(ellipse at 85% 15%, rgba(254, 222, 228, 0.9) 0%, rgba(255, 237, 230, 0.5) 40%, transparent 65%),
+      radial-gradient(ellipse at 50% 50%, rgba(255, 245, 238, 0.8) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 85%, rgba(230, 233, 255, 0.75) 0%, transparent 55%),
+      #FAF7F5;
+  }
+  .bg-pastel-canvas {
+    background: linear-gradient(145deg, #F2E8FD 0%, #FDE4EB 32%, #FFF0EA 65%, #F4F1FD 100%);
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
